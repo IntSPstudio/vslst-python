@@ -1,14 +1,14 @@
 # VSLst Python
 
-VSLstAE:
-Draws circle and other same length line symbols
-Windows command line: VSLstAE.py SizeInIntNumber
-VSLstAF:
-Draws circle and show slice
-Windows command line: VSLstAE.py SizeInIntNumber SlizeSizeInIntNumber
-VSLstAH:
-How Do I Find All Possibilities Of A Combination?
-Windows command line: VSLstAE.py
-VSLstAK:
-String input to sha1 
-Windows command line: VSLstAK.py
+VSLstAE: <br />
+Draws circle and other same length line symbols <br />
+Windows command line: VSLstAE.py SizeInIntNumber <br />
+VSLstAF: <br />
+Draws circle and show slice <br />
+Windows command line: VSLstAE.py SizeInIntNumber SlizeSizeInIntNumber <br />
+VSLstAH:<br />
+How Do I Find All Possibilities Of A Combination? <br />
+Windows command line: VSLstAE.py <br />
+VSLstAK: <br />
+String input to sha1 <br />
+Windows command line: VSLstAK.py<br />
