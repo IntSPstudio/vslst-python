@@ -1,2 +1,2 @@
-# vslst-python
+# VSLst Python
 Python testing codes
