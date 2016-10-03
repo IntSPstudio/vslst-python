@@ -1,20 +1,20 @@
 # VSLst Python
 
-VSLstAE: <br>
+###VSLstAE: <br>
 Draws circle and other same length line symbols <br>
-Windows command line: VSLstAE.py SizeInIntNumber <br>
+Windows command line: VSLstAE.py SizeInIntNumber
 
-VSLstAF: <br>
+###VSLstAF: <br>
 Draws circle and show slice <br>
-Windows command line: VSLstAE.py SizeInIntNumber SlizeSizeInIntNumber <br>
+Windows command line: VSLstAE.py SizeInIntNumber SlizeSizeInIntNumber
 
-VSLstAH: <br>
+###VSLstAH: <br>
 How Do I Find All Possibilities Of A Combination?  <br>
-Windows command line: VSLstAE.py <br>
+Windows command line: VSLstAE.py
 
-VSLstAK: <br>
+###VSLstAK: <br>
 String input to sha1 <br>
-Windows command line: VSLstAK.py <br>
+Windows command line: VSLstAK.py
 
-VSLstAL: <br>
-CSV file to python 2D array <br>
+###VSLstAL: <br>
+CSV file to python 2D array
