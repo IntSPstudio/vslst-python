@@ -4,7 +4,6 @@
 #
 # Twitter: @IntSPstudio
 #|==============================================================|#
-
 #SETTINGS
 fileName ="sample"
 fileSeparator =";"
@@ -44,7 +43,7 @@ if __name__ == "__main__":
 	arrayHeight = len(content)
 	arrayWidth = getArrayWidth(content)
 	#LIST COMPREHENSION
-	arrayContent = [["" for xp in range(arrayWidth)] for yp in range(1)]
+	arrayContent = [["" for xp in range(arrayWidth)] for yp in range(arrayHeight)]
 	#ADDING CONTENT TO LIST
 	arrayYP =0
 	for yp in range(0, contentHeight):
@@ -63,7 +62,6 @@ if __name__ == "__main__":
 					contentCheck =1
 				wcl = wcl + point
 				arrayYP = yp
-				print(wcl)
-				#arrayContent[arrayYP][arrayXP] = wcl
+				#print(wcl)
+				arrayContent[arrayYP][arrayXP] = wcl
 	print(arrayContent)
-	print(content)
