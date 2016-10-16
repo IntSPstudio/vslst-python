@@ -35,7 +35,7 @@ def getArrayWidth(array):
 			arrayMaxWidth = pointWidth
 	return arrayMaxWidth
 #MAKE ARRAY
-def makeArrayWidth():
+def makeContentArray():
 	#CONTENT
 	contentFile = readFile(fileName)
 	contentHeight = len(contentFile)
@@ -68,5 +68,5 @@ def makeArrayWidth():
 #START
 if __name__ == "__main__":
 	#CSV TO 2D ARRAY
-	arrayContent = makeArrayWidth()
+	arrayContent = makeContentArray()
 	print(arrayContent)
