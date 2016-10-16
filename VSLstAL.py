@@ -19,11 +19,11 @@ def getArrayWidth(array):
 	arrayMaxWidth =0
 	arrayHeight = len(array)
 	for yp in range(0, arrayHeight):
-		arrayWidth = len(content[yp])
+		arrayWidth = len(array[yp])
 		pointWidth =0
 		pointCheck =0
 		for xp in range(0, arrayWidth):
-			point = str(content[yp][xp])
+			point = str(array[yp][xp])
 			
 			if point == fileSeparator:
 				pointCheck =0
@@ -34,25 +34,25 @@ def getArrayWidth(array):
 		if pointWidth > arrayMaxWidth:
 			arrayMaxWidth = pointWidth
 	return arrayMaxWidth
-#START
-if __name__ == "__main__":
+#MAKE ARRAY
+def makeArrayWidth():
 	#CONTENT
-	content = readFile(fileName)
-	contentHeight = len(content)
+	contentFile = readFile(fileName)
+	contentHeight = len(contentFile)
 	#LIMITS
-	arrayHeight = len(content)
-	arrayWidth = getArrayWidth(content)
+	arrayHeight = len(contentFile)
+	arrayWidth = getArrayWidth(contentFile)
 	#LIST COMPREHENSION
 	arrayContent = [["" for xp in range(arrayWidth)] for yp in range(arrayHeight)]
 	#ADDING CONTENT TO LIST
 	arrayYP =0
 	for yp in range(0, contentHeight):
-		contentWidth = len(content[yp])
+		contentWidth = len(contentFile[yp])
 		contentCheck =0
 		wcl =""
 		arrayXP =-1
 		for xp in range(0, contentWidth):
-			point = str(content[yp][xp])
+			point = str(contentFile[yp][xp])
 			if point == fileSeparator:
 				wcl =""
 				contentCheck =0
@@ -64,4 +64,9 @@ if __name__ == "__main__":
 				arrayYP = yp
 				#print(wcl)
 				arrayContent[arrayYP][arrayXP] = wcl
+	return arrayContent
+#START
+if __name__ == "__main__":
+	#CSV TO 2D ARRAY
+	arrayContent = makeArrayWidth()
 	print(arrayContent)
