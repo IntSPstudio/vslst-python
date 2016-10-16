@@ -6,11 +6,11 @@ Windows command line: VSLstAE.py SizeInIntNumber
 
 ###VSLstAF: <br>
 Draws circle and show slice <br>
-Windows command line: VSLstAE.py SizeInIntNumber SlizeSizeInIntNumber
+Windows command line: VSLstAF.py SizeInIntNumber SlizeSizeInIntNumber
 
 ###VSLstAH: <br>
 How Do I Find All Possibilities Of A Combination?  <br>
-Windows command line: VSLstAE.py
+Windows command line: VSLstAH.py
 
 ###VSLstAK: <br>
 String input to sha1 <br>
