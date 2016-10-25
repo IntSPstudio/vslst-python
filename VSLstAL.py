@@ -17,8 +17,10 @@ def readFile(name):
 	return fileContent
 #WRITE FILE
 def writeFile(array):
+	#LIMITS
 	arrayMaxWidth =0
 	arrayHeight = len(array)
+	#CONTENT
 	arrayLine =""
 	fileName = fileNameOut +".csv"
 	f = open(fileName,"w")
@@ -35,8 +37,9 @@ def writeFile(array):
 		f.write(arrayLine)
 		arrayLine =""
 	f.close()
-#ARRAY HEIGHT (CSV STYLE)
+#ARRAY WIDTH (CSV STYLE)
 def getArrayWidth(array):
+	#LIMITS
 	arrayMaxWidth =0
 	arrayHeight = len(array)
 	for yp in range(0, arrayHeight):
@@ -82,12 +85,14 @@ def makeContentArray(contentFileName):
 					contentCheck =1
 				wcl = wcl + point
 				arrayYP = yp
-				#print(wcl)
 				arrayContent[arrayYP][arrayXP] = wcl
 	return arrayContent
+#PRINT ARRAY
 def printContentArraySimple(array):
+	#LIMITS
 	arrayMaxWidth =0
 	arrayHeight = len(array)
+	#CONTENT
 	arrayPrintMap =""
 	arraySeparatorV ="\n"
 	arraySeparatorH =" "
@@ -108,6 +113,6 @@ if __name__ == "__main__":
 	#CSV TO 2D ARRAY
 	fileContent = makeContentArray(fileNameIn)
 	fileHeight = len(fileContent)
-	fileWidth = arrayWidth = len(fileContent[0])
+	fileWidth = len(fileContent[0])
 	print(fileHeight, "x", fileWidth)
 	print(printContentArraySimple(fileContent))
