@@ -4,7 +4,7 @@
 #
 # Twitter: @IntSPstudio
 #|==============================================================|#
-#IMPORT IT8c library
+#IMPORT IT8c
 import it8c
 #MAIN
 if __name__ == "__main__":
