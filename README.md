@@ -18,3 +18,6 @@ Windows command line: VSLstAK.py
 
 ###VSLstAL: <br>
 CSV file to python 2D array
+
+###VSLstAM: <br>
+Read CSV file with IT8c library
