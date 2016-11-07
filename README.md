@@ -14,7 +14,7 @@ Windows command line: VSLstAH.py
 
 ###VSLstAK: <br>
 String input to sha1 <br>
-Windows command line: VSLstAK.py
+Windows command line: VSLstAK.py input
 
 ###VSLstAL: <br>
 CSV file to python 2D array
