@@ -7,12 +7,10 @@
 
 #IMPORT
 import sys
-import hashlib
-#USER INPUT
-input = sys.argv[1]
+import it8c
 #START
 if __name__ == "__main__":
-	hasht = hashlib.sha1()
-	hasht.update(input.encode('utf-8'))
-	output = hasht.hexdigest()
-	print(output)
+	#INPUT
+	input = sys.argv[1]
+	#PRINT
+	print(it8c.sha1(input))
