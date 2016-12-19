@@ -8,6 +8,8 @@
 import it8c
 #MAIN
 if __name__ == "__main__":
-	fileContent = it8c.csvReadFile("sample.csv")
-	print(it8c.csvArraySize(fileContent))
-	print(it8c.csvSimplePrint(fileContent))
+	fileName = "sample.csv"
+	if (it8c.fileTextExists(fileName) == 1):
+		fileContent = it8c.csvReadFile(fileName,";")
+		print(it8c.csvArraySize(fileContent))
+		print(it8c.csvSimplePrint(fileContent))
