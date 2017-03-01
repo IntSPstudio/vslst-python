@@ -25,5 +25,5 @@ Read CSV file with IT8c library
 ###VSLstAN: <br>
 Print christmas tree
 
-###VSLstAO <br>
+###VSLstAO: <br>
 Calculate avarage value
