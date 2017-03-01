@@ -21,3 +21,9 @@ CSV file to python 2D array
 
 ###VSLstAM: <br>
 Read CSV file with IT8c library
+
+###VSLstAN: <br>
+Print christmas tree
+
+###VSLstAO <br>
+Calculate avarage value
