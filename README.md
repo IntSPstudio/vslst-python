@@ -27,3 +27,6 @@ Print christmas tree
 
 ###VSLstAO: <br>
 Calculate avarage value
+
+###VSLstAP: <br>
+Platform library example
