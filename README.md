@@ -1,32 +1,32 @@
 # VSLst Python
 
-###VSLstAE: <br>
+VSLstAE: <br>
 Draws circle and other same length line symbols <br>
 Windows command line: VSLstAE.py SizeInIntNumber
 
-###VSLstAF: <br>
+VSLstAF: <br>
 Draws circle and show slice <br>
 Windows command line: VSLstAF.py SizeInIntNumber SlizeSizeInIntNumber
 
-###VSLstAH: <br>
+VSLstAH: <br>
 How Do I Find All Possibilities Of A Combination?  <br>
 Windows command line: VSLstAH.py
 
-###VSLstAK: <br>
+VSLstAK: <br>
 String input to sha1 <br>
 Windows command line: VSLstAK.py input
 
-###VSLstAL: <br>
+VSLstAL: <br>
 CSV file to python 2D array
 
-###VSLstAM: <br>
+VSLstAM: <br>
 Read CSV file with IT8c library
 
-###VSLstAN: <br>
+VSLstAN: <br>
 Print christmas tree
 
-###VSLstAO: <br>
+VSLstAO: <br>
 Calculate avarage value
 
-###VSLstAP: <br>
+VSLstAP: <br>
 Platform library example
