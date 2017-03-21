@@ -13,4 +13,4 @@ if __name__ == "__main__":
 	#INPUT
 	input = sys.argv[1]
 	#PRINT
-	print(it8c.sha1(input))
+	print(it8c.encryptSha1(input))
