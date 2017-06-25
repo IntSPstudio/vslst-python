@@ -30,3 +30,6 @@ Calculate avarage value
 
 VSLstAP: <br>
 Platform library example
+
+VSLstAQ.py: <br>
+Print date and time nice way
