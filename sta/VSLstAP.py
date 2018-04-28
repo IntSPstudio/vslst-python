@@ -10,9 +10,9 @@ import it8c
 import platform
 #MAIN
 if __name__ == "__main__":
-	#Create array
+	#ARRAY
 	platformContent = it8c.dataCreateArray(10,2,"")
-	#Get data
+	#IMPORT DATA
 	platformContent[0][0] ="COMPUTER"
 	platformContent[1][0] ="Name"
 	platformContent[1][1] = platform.node()
@@ -31,6 +31,6 @@ if __name__ == "__main__":
 	platformContent[8][1] = platform.python_build()[0]
 	platformContent[9][0] ="Build date"
 	platformContent[9][1] = platform.python_build()[1]
-	#Print data
+	#PRINT ARRAY CONTENT
 	print(it8c.vslTerminalLine(0,""))
 	print(it8c.dataSmrPrintArray(platformContent," ","",0))
