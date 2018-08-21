@@ -16,12 +16,10 @@ findKeyE = ","
 #LOOP
 if __name__ == "__main__":
     #GIVE LICENSE
-    ap = "https://www.biltema.fi/auton-varaosahaku/" #URL
-    userLp = input("License plate: ")
-    cp = ""
+    ap = "https://www.biltema.fi/auton-varaosahaku/" #URL (Change by country)
+    userLp = input("License plate: ") #ABC-123
     if userLp !="":
-        #URL
-        cp = ap + userLp
+        cp = ap + userLp #URL
         #GET
         with urllib.request.urlopen(cp) as url:
             cacheContent = url.read().decode()
@@ -65,8 +63,11 @@ if __name__ == "__main__":
                                     arrayContent[fp] = gp
                             else:
                                 dp = dp + str(ep)
-                        #SAVE RESULTS
+                        #SAVE RESULTS (PRINT OR SAVE)
+                        print(json.dumps(arrayContent, indent=2, sort_keys=True))
+                        """
                         aUrl = str("").join(i for i in userLp if i.isalnum()) +"_results.json"
                         aFile = open(aUrl, "w")
                         json.dump(arrayContent, aFile)
                         aFile.close()
+                        """
