@@ -1,7 +1,7 @@
 #|==============================================================|#
 # Made by IntSPstudio
 # Project Visual Street
-#
+# ID: 980004005
 # Twitter: @IntSPstudio
 #|==============================================================|#
 
@@ -13,7 +13,6 @@ import turtle
 import math
 
 #ALG
-#Ympyrän kehän koko
 def calcCircleRl(rlRadius):
 	#2PIR
 	return 2*pi*rlRadius
