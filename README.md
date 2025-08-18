@@ -1,8 +1,6 @@
 # VSLst Python
 
 #### STB
-##### 980004030 - VSLstBD: <br>
-Extract data from csv with titles
 
 ##### 980004031 - VSLstBE: <br>
 Testing tkinter frames
