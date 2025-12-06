@@ -2,7 +2,6 @@
 # Made by IntSPstudio
 # Project Visual Street
 # ID: 980004015
-# Twitter: @IntSPstudio
 #|==============================================================|#
 
 #IMPORT
